@@ -2,6 +2,17 @@
 using namespace std;
 int main() {
 	long long num;
+	cin >> num;
+	if(num == (num & (-num)))
+		cout << "Yes";
+	else
+		cout << "No";
+}
+
+/*#include <iostream>
+using namespace std;
+int main() {
+	long long num;
 	
 	cin >> num;
 	
@@ -13,4 +24,4 @@ int main() {
 	else
 		cout << "No";
 		
-}
+}*/
